@@ -2,6 +2,8 @@
 Comparative Evaluation of U-Net and LDS U-Net for Ultrasound Bony Feature Segmentation in Scoliosis Patients
 
 call in terminal
+
+
 LDS gate only:
 python ldsunet_model.py --images data/images --masks data/masks --no-mskip --no-dense --use-dice
 
